@@ -30,7 +30,8 @@ sumit chakrobarty
 ^d
 ```
 ## OUTPUT
-![alt text](1.png)
+<img width="801" height="190" alt="image" src="https://github.com/user-attachments/assets/175fb222-301d-4070-97e6-798208d4c5f7" />
+
 
 cat > file2
 ```
@@ -42,30 +43,36 @@ s.n. dasgupta
 ^d
 ```
 ## OUTPUT
-![alt text](2.png)
+<img width="778" height="175" alt="image" src="https://github.com/user-attachments/assets/42fde094-dbe4-4d59-a469-90a6fdbb2ffb" />
+
 
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![alt text](3.png)
+<img width="785" height="186" alt="image" src="https://github.com/user-attachments/assets/39fdad64-e3ce-44d8-81aa-318d4ffafcb8" />
+
 
 cat < file2
 ## OUTPUT
-![alt text](4.png)
+<img width="777" height="181" alt="image" src="https://github.com/user-attachments/assets/378ea436-30dc-4b7a-8b51-74279e4f6171" />
+
 
 # Comparing Files
 cmp file1 file2
 
 ## OUTPUT
- ![alt text](5.png)
+ <img width="793" height="107" alt="image" src="https://github.com/user-attachments/assets/8acea54a-979a-46cb-9721-67c580652c8e" />
+
 
 comm file1 file2
  ## OUTPUT
-![alt text](6.png)
+<img width="807" height="226" alt="image" src="https://github.com/user-attachments/assets/ee041995-2058-44db-9c1f-2345bb286c01" />
+
  
 diff file1 file2
 ## OUTPUT
-![alt text](7.png)
+<img width="800" height="287" alt="image" src="https://github.com/user-attachments/assets/28eeef0b-18f8-4917-a401-dd9b005c4d7f" />
+
 
 #Filters
 
@@ -87,15 +94,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![alt text](8.png)
+<img width="1065" height="92" alt="image" src="https://github.com/user-attachments/assets/bb1de859-31d3-466b-b5c4-9d526ca7c8d5" />
+
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![alt text](9.png)
+<img width="788" height="218" alt="image" src="https://github.com/user-attachments/assets/355a49c2-3420-43a2-b2df-b557c04adbe1" />
+
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![alt text](10.png)
+<img width="787" height="210" alt="image" src="https://github.com/user-attachments/assets/b7df6699-5a9f-4f11-a8f3-ad15f28c35ca" />
+
 
 cat < newfile 
 ```
@@ -109,40 +119,47 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![alt text](11.png)
+<img width="836" height="116" alt="image" src="https://github.com/user-attachments/assets/0b7e8cff-961d-47a5-9260-2147cb3e26dd" />
+
 
 
 grep hello newfile 
 ## OUTPUT
-![alt text](12.png)
+<img width="825" height="120" alt="image" src="https://github.com/user-attachments/assets/c01b7e1b-f3e7-47a1-827b-f3ed2bb7e3f5" />
+
 
 
 grep -v hello newfile 
 ## OUTPUT
-![alt text](13.png)
+<img width="827" height="87" alt="image" src="https://github.com/user-attachments/assets/5187dbfc-317a-4ef4-9f6e-bf7ef57a4b38" />
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![alt text](14.png)
+<img width="807" height="102" alt="image" src="https://github.com/user-attachments/assets/841e98a8-8dfc-4b15-a040-31913cfb6955" />
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![alt text](15.png)
+<img width="812" height="101" alt="image" src="https://github.com/user-attachments/assets/0d7303d4-d81c-4ebc-af1f-48f244b9ef4a" />
+
 
 
 
 grep -R "kalilinux" /etc
 ## OUTPUT
-![alt text](16.png)
+<img width="761" height="772" alt="image" src="https://github.com/user-attachments/assets/d99bf41d-8ab4-43bc-b85e-feaee043ec58" />
+
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![alt text](17.png)
+<img width="737" height="97" alt="image" src="https://github.com/user-attachments/assets/42628d8c-6123-4e1f-b5a7-b6662cecff5b" />
+
 
 cat < newfile 
 ```
