@@ -42,7 +42,8 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-<img width="1411" height="375" alt="Screenshot 2026-09-02 221620" src="https://github.com/user-attachments/assets/aa828365-8054-4f85-b4db-4d7c4dd0c92f" />
+<img width="1588" height="368" alt="image" src="https://github.com/user-attachments/assets/7c3fef14-0558-41c7-bce5-1b39e51f5604" />
+
 
 
 cat < file2
